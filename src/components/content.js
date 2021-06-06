@@ -30,7 +30,7 @@ class Content extends Component {
           <div className="card-body text-center">
             <h5 className="card-title">{this.props.name}</h5>
             <p>{this.props.price} đ</p>
-            <a className="btn btn-primary" onClick={this.onAddToCart2}>Go somewhere</a>
+            <a className="btn btn-primary" onClick={this.onAddToCart2}>Add To Cart</a>
           </div>
         </div>
       </div>
